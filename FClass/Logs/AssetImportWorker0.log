@@ -1,0 +1,2291 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 16040 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/FClass
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56623
+Successfully changed project path to: F:/FClass
+F:/FClass
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 89.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/FClass/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8020 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019619 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (709ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.135 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1136ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.6 KB). Loaded Objects now: 3861.
+Memory consumption went from 117.1 MB to 117.0 MB.
+Total: 2.804600 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.245000 ms MarkObjects: 2.169200 ms  DeleteObjects: 0.104500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 776288.951879 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (13).png
+  artifactKey: Guid(c6d9b1b47b3e18e4e843cfb942ea7f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (13).png using Guid(c6d9b1b47b3e18e4e843cfb942ea7f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '382d589332f1a0badfd333f2232194eb') in 0.265664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/8_1/MousePick_8_1.cs
+  artifactKey: Guid(b70e5cbc0c066f34ea2ada6dcbecba69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_1/MousePick_8_1.cs using Guid(b70e5cbc0c066f34ea2ada6dcbecba69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '032adcab5b21f342ad13d1f7aef4a99f') in 0.016610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (7).png
+  artifactKey: Guid(f9b15c03f67837b4fa2d503adbc6d963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (7).png using Guid(f9b15c03f67837b4fa2d503adbc6d963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b545ae184e096fb434e0d1a572f7a9d') in 0.016372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Meshtint Free Knight/Post Processing Profile/PPP.asset
+  artifactKey: Guid(4989ef6ec451fd54d94a6b451ce1df4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Post Processing Profile/PPP.asset using Guid(4989ef6ec451fd54d94a6b451ce1df4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bcddb53a55e9cd572f895fb3fd21670') in 0.028574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/7_20/Component_7_20.cs
+  artifactKey: Guid(31679f2f96b49ab40a090b70697c7cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_20/Component_7_20.cs using Guid(31679f2f96b49ab40a090b70697c7cf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4573af13908023bb267128abf07983c3') in 0.004427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free Knight/Materials
+  artifactKey: Guid(8c20f866a97c9de4eace1ced629ece77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Materials using Guid(8c20f866a97c9de4eace1ced629ece77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a10f498c290ba24787874e6b9afd0e3') in 0.013237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/8_2/MousePickQuestion_8_2.cs
+  artifactKey: Guid(87015238b02fa8947ae145f46480cd1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_2/MousePickQuestion_8_2.cs using Guid(87015238b02fa8947ae145f46480cd1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f0e9f13614518c7bf1040408f4bc0ae') in 0.006435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/8_2/8_2_MousePickQuestion.unity
+  artifactKey: Guid(72c1db97bc73b69479d2c131e6e18f99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_2/8_2_MousePickQuestion.unity using Guid(72c1db97bc73b69479d2c131e6e18f99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41080fdc0ceaefcf9b339ddfa60ea6b5') in 0.004024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/8_5/ResourceLoadExample_8_5.cs
+  artifactKey: Guid(468613cfc99fd3a42994b54c75ece6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5/ResourceLoadExample_8_5.cs using Guid(468613cfc99fd3a42994b54c75ece6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f1bad772e72a2da1ed0b69c8229b218') in 0.006960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Model/Character/Material
+  artifactKey: Guid(94ff0ef8d2e045b45a8a846e34293616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model/Character/Material using Guid(94ff0ef8d2e045b45a8a846e34293616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e36a794e46f1206ee729da25ed2f35c') in 0.004829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free Knight/FBX/Shield.FBX
+  artifactKey: Guid(8f414378dccad1146bbee06522d6d242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/FBX/Shield.FBX using Guid(8f414378dccad1146bbee06522d6d242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3579c10464b696858cf3180b295efad8') in 0.080349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (1).png
+  artifactKey: Guid(b75dd3a04b31d2a429fb4e29be03ba6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (1).png using Guid(b75dd3a04b31d2a429fb4e29be03ba6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6e0b3f27c7f0aa7179b98186f61e233') in 0.030025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/7_29/7_29_InputMouseExample.unity
+  artifactKey: Guid(4511d34e3a09cb44c87930b5fc18f4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29/7_29_InputMouseExample.unity using Guid(4511d34e3a09cb44c87930b5fc18f4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880ece2630fcda0073cc7ac00baaaff4') in 0.004084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/7_21
+  artifactKey: Guid(c0236c85804ff8b46b263d2a9f987498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_21 using Guid(c0236c85804ff8b46b263d2a9f987498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '355cb2d7b3fa5b7097ddee7df405e683') in 0.003343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (14).png
+  artifactKey: Guid(5e98af8abcff7a94d9f58a9c322844ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (14).png using Guid(5e98af8abcff7a94d9f58a9c322844ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e890432957f6de10433951222850865') in 0.027470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (0).png
+  artifactKey: Guid(043f7c7b9e6394041bdd266a4fe9dada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (0).png using Guid(043f7c7b9e6394041bdd266a4fe9dada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb0e123b064929ed27c9620441b2647a') in 0.041101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/7_21/Array_7_21.cs
+  artifactKey: Guid(ef80a5d06761c4d4eaea062bd798f5d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_21/Array_7_21.cs using Guid(ef80a5d06761c4d4eaea062bd798f5d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f900d0980ff0ba642bdff903f95803b9') in 0.007687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/7_27
+  artifactKey: Guid(bb394d63d45a012419f29ac3cf362cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_27 using Guid(bb394d63d45a012419f29ac3cf362cbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c05707eb0ddb8196584903d936e9318') in 0.005318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/7_27/강사님 파일_7_27.cs
+  artifactKey: Guid(980de14082ba7ab42b4115e53f0696da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_27/강사님 파일_7_27.cs using Guid(980de14082ba7ab42b4115e53f0696da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7e58c66eca050c62bedc7911ee7c983') in 0.007791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/8_1/InputMouse_8_1.cs
+  artifactKey: Guid(3b302da54947ad64088a2da2332dd750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_1/InputMouse_8_1.cs using Guid(3b302da54947ad64088a2da2332dd750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9f210add89e9754d81ac70d33a3ad59') in 0.010704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/Meshtint Free Knight Tutorial.pdf
+  artifactKey: Guid(661e3dc0732785243a2ff779154b1166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/Meshtint Free Knight Tutorial.pdf using Guid(661e3dc0732785243a2ff779154b1166) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e10301541ac1f8d439e3af440946c611') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/7_29/7_29_Test.unity
+  artifactKey: Guid(0ad699432e77c554e86f83205a208089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29/7_29_Test.unity using Guid(0ad699432e77c554e86f83205a208089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfc82d3864c0cc0ef44b97f00fd58034') in 0.029116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Meshtint Free Knight/Scenes/Ortho Scene.unity
+  artifactKey: Guid(b51e6e700bd47944a8ecc7b69b72ac1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Scenes/Ortho Scene.unity using Guid(b51e6e700bd47944a8ecc7b69b72ac1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86811737a589a2fee9e531d8c12bd1bb') in 0.014141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (11).png
+  artifactKey: Guid(7d67e37f515d7604a9d5c161e9d09800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (11).png using Guid(7d67e37f515d7604a9d5c161e9d09800) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1346c07ba76a3b7193b1e4687ef2034') in 0.036126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free Knight/Read me.txt
+  artifactKey: Guid(a39cc63bc596d794f978a53d1dd5cf34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Read me.txt using Guid(a39cc63bc596d794f978a53d1dd5cf34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3037f74697923242c78666afc8ecadbb') in 0.042783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/hit.anim
+  artifactKey: Guid(5fbfae4be79b8784a951a8581b60d70a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/hit.anim using Guid(5fbfae4be79b8784a951a8581b60d70a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd32cec2315b5f78e9b07a465098ebe46') in 0.062481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Texture
+  artifactKey: Guid(0b2afc7bac8cf784a8add60af5da410e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Texture using Guid(0b2afc7bac8cf784a8add60af5da410e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe2625148b4f09a05a0e280f6872dd7c') in 0.005992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/StringData.txt
+  artifactKey: Guid(91ded21499a594e468ae0db908c8845b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/StringData.txt using Guid(91ded21499a594e468ae0db908c8845b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d4d5824dfa87974d5bb35458a5974da') in 0.017734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Texture/TrollGiant.tga
+  artifactKey: Guid(df8bb3162a3a7d84caf60857634e5f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Texture/TrollGiant.tga using Guid(df8bb3162a3a7d84caf60857634e5f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d4d5ee2ad685c354af63384d34f87b9') in 0.029094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Demo/Mob_1.controller
+  artifactKey: Guid(f6c8fcd79118b2340b582d672ac5c056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Demo/Mob_1.controller using Guid(f6c8fcd79118b2340b582d672ac5c056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4d9f89283f2955f10d4ca96e49a88ce') in 0.053003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/8_4/8_4_Meshinfo.unity
+  artifactKey: Guid(8694d620cd12b8e4184f57c2f0e25174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_4/8_4_Meshinfo.unity using Guid(8694d620cd12b8e4184f57c2f0e25174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a386116a7a08e09c13baf16cded2859') in 0.005744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Meshtint Free Knight/Scenes/3rd Person Controller.unity
+  artifactKey: Guid(0e38c937b3611904c9badaf3865ae050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Scenes/3rd Person Controller.unity using Guid(0e38c937b3611904c9badaf3865ae050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12e4ff7000c997bcb37a5a76ea728a50') in 0.004111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/8_4
+  artifactKey: Guid(b30fa71588cc9b746b1ed3146f3b4b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_4 using Guid(b30fa71588cc9b746b1ed3146f3b4b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45bc41b4b1eb4df4ad482a2dfb814207') in 0.010182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Meshtint Free Knight/Materials/Grid.mat
+  artifactKey: Guid(83d6308377af6b14fb533010a9228692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Materials/Grid.mat using Guid(83d6308377af6b14fb533010a9228692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5854e9c0d64283ddb71617fe0a2c5c0') in 0.096379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scene
+  artifactKey: Guid(f1f1566d536d9064cb3dca57c6c4a356) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scene using Guid(f1f1566d536d9064cb3dca57c6c4a356) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f9fad347ae28fd00b00044462695565') in 0.004250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/8_4/8_4_Practice.unity
+  artifactKey: Guid(3349c4f4b24a2a941b52072ece77bb85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_4/8_4_Practice.unity using Guid(3349c4f4b24a2a941b52072ece77bb85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d8cb9c6f5244e60a943fc16682935dc') in 0.008168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free Knight/FBX/Meshtint Free Knight.FBX
+  artifactKey: Guid(445581dbfbbea06408d552fa1aca77fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/FBX/Meshtint Free Knight.FBX using Guid(445581dbfbbea06408d552fa1aca77fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b42c46ca5bc2fdaea940d9f812da2b0f') in 0.065844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/PT_018@die.FBX
+  artifactKey: Guid(3600b7b3a81c98748a8c262b93f34d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/PT_018@die.FBX using Guid(3600b7b3a81c98748a8c262b93f34d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ef4dbb4b0f16aa643fe4ce164b1e267') in 0.052885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Demo/Demo.unity
+  artifactKey: Guid(cbc5dbecc3cf2c84f9364857e91b6372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Demo/Demo.unity using Guid(cbc5dbecc3cf2c84f9364857e91b6372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '996cb7126bdec87483020a223a731c25') in 0.008820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/atk01.anim
+  artifactKey: Guid(c4cd3788e2e0f7441a6b1ae55e9571f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/atk01.anim using Guid(c4cd3788e2e0f7441a6b1ae55e9571f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57e8fe0a1a4eb7ca776ac1d605aeba5c') in 0.050661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/run.anim
+  artifactKey: Guid(72c405af43f2e48428ee36a93837de35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/run.anim using Guid(72c405af43f2e48428ee36a93837de35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df3bfe08b8b484a4793d9b19a7483834') in 0.024379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/7_28/Test_7_28.cs
+  artifactKey: Guid(db16ea1b19f86224891a15927e9f71a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_28/Test_7_28.cs using Guid(db16ea1b19f86224891a15927e9f71a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5d1b2c40c704dca5b21dc0045589f9f') in 0.062022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/8_3/8_3_RotateTowards.unity
+  artifactKey: Guid(a44938304c61b4e44b655efd86807da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_3/8_3_RotateTowards.unity using Guid(a44938304c61b4e44b655efd86807da0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a32e53c828033bdd41b085c418b4767') in 0.012153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/7_20/7_20_Distance.unity
+  artifactKey: Guid(38986c4a54d0c9843ba673944ab110d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_20/7_20_Distance.unity using Guid(38986c4a54d0c9843ba673944ab110d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80c20e73027f66adaf42c3cfecd461d2') in 0.003967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/7_26
+  artifactKey: Guid(4ee2624da1b816944bb5dd5c011eec62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_26 using Guid(4ee2624da1b816944bb5dd5c011eec62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '224d022a771033f714e2375ea23a1556') in 0.004190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/7_27/Test_7_27.cs
+  artifactKey: Guid(fcdd2d76fc474ff4f882a8e0f4e84293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_27/Test_7_27.cs using Guid(fcdd2d76fc474ff4f882a8e0f4e84293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1786a56b432ca72623e85932f4bae858') in 0.005394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/7_29
+  artifactKey: Guid(a27683f33c9f7f04488caa64d54220b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29 using Guid(a27683f33c9f7f04488caa64d54220b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4e959e3ef9a0408f96e212bbd806b05') in 0.004466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Demo
+  artifactKey: Guid(af0c35ad1d4f5a2408f1e7da6f35d807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Demo using Guid(af0c35ad1d4f5a2408f1e7da6f35d807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2d75c0fb5954df008083ca7a8de9ef6') in 0.004766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/7_29/InputMouseExample_7_29.cs
+  artifactKey: Guid(3b4b30ef0abf6984195053e2ee703edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29/InputMouseExample_7_29.cs using Guid(3b4b30ef0abf6984195053e2ee703edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbacd7ae0cd37c5243be43669d8487a9') in 0.006236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Demo/TrollGiant.controller
+  artifactKey: Guid(e18e7f26b38cfa44cb15722cfb7e8f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Demo/TrollGiant.controller using Guid(e18e7f26b38cfa44cb15722cfb7e8f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6b2fe08027b98540901fba9d22770df') in 0.076949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/8_3
+  artifactKey: Guid(7d0953a00bb26ef4ea914d2070f10840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_3 using Guid(7d0953a00bb26ef4ea914d2070f10840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98b6cbe0eed3ffb42f88dc9bf7a528d5') in 0.005989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Meshtint Free Knight/Controllers/Meshtint Free Knight.controller
+  artifactKey: Guid(d05c65343761305459dd4f72d1f51309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Controllers/Meshtint Free Knight.controller using Guid(d05c65343761305459dd4f72d1f51309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b79d92b4c8077826e7b74c41fc311bfd') in 0.010164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/8_8/8_8_AnimationExample_1.unity
+  artifactKey: Guid(d60c3a798c2714545bba75757ce9c426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_8/8_8_AnimationExample_1.unity using Guid(d60c3a798c2714545bba75757ce9c426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b9dde8ad62111e45e5ddd7ba54f8fb5') in 0.008393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/8_10/8_10_AtentsTest.unity
+  artifactKey: Guid(dc5b250aecbd870478fcd1de71d2b0f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_10/8_10_AtentsTest.unity using Guid(dc5b250aecbd870478fcd1de71d2b0f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c524d82f78bf38d23c9d5ab104b21989') in 0.008250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DogKnight/Animator
+  artifactKey: Guid(6bef64b21e5592046bb2b13e7fa806ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animator using Guid(6bef64b21e5592046bb2b13e7fa806ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '119770bbf8b22d579d6ca3e41b2835c8') in 0.037190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/8_9
+  artifactKey: Guid(66bfc9fa22c0fc9448021fefd969fea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_9 using Guid(66bfc9fa22c0fc9448021fefd969fea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '767d08173a3b1a9060f3db196c05ee7e') in 0.005020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/8_8/AnimationExample_1_8_8.cs
+  artifactKey: Guid(385bcd4d59b7b9c4397786503faf077a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_8/AnimationExample_1_8_8.cs using Guid(385bcd4d59b7b9c4397786503faf077a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a70bec9f70c078e476110260d9d6f209') in 0.013893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion
+  artifactKey: Guid(fb0cafb8fe0248f4a8639122eb479153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion using Guid(fb0cafb8fe0248f4a8639122eb479153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb05cbe4a4ec77fae824f9c7c738f91b') in 0.007743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/8_8
+  artifactKey: Guid(c0663f0e74be29a49adeb4872198815a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_8 using Guid(c0663f0e74be29a49adeb4872198815a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '621a8c1d02715c21023eaf483dbeb102') in 0.004203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/7_21/7-21-Array.unity
+  artifactKey: Guid(acd8360e90aae1349be64b81b1aa4f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_21/7-21-Array.unity using Guid(acd8360e90aae1349be64b81b1aa4f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ffa7d2f0cda3ab756e6ad600a689413') in 0.003911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (6).png
+  artifactKey: Guid(5ef1663e3114d7545b0a74d263287edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (6).png using Guid(5ef1663e3114d7545b0a74d263287edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '437d1e860c0d475068b6ced91a7ffcfe') in 0.035636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/7_21/7_21_List.unity
+  artifactKey: Guid(42b620b25192b4947a9e0bd93f7d1bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_21/7_21_List.unity using Guid(42b620b25192b4947a9e0bd93f7d1bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '041a4fa7cbe2ba2f900ebb75c759fd99') in 0.005027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Meshtint Free Knight/www.meshtint.com.txt
+  artifactKey: Guid(48f8c256bc36d2c4da7b620f98f495b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/www.meshtint.com.txt using Guid(48f8c256bc36d2c4da7b620f98f495b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96457950357078c64b68eeb061f7cca0') in 0.020881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Meshtint Free Knight/Textures/Meshtint Free Knight.psd
+  artifactKey: Guid(9522d3abe655f344782f4184a52168d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Textures/Meshtint Free Knight.psd using Guid(9522d3abe655f344782f4184a52168d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '926d9c8968ff0abe93174f12f491e431') in 0.037216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/7_27/7_27_MoveExample.unity
+  artifactKey: Guid(4b852729a77d2064798dff1a0b8ff7c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_27/7_27_MoveExample.unity using Guid(4b852729a77d2064798dff1a0b8ff7c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e37f5981657ca2105cdb625744fccb20') in 0.018704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/7_21/List_7_21.cs
+  artifactKey: Guid(c3cfde0706290b24892fc9c68ebd6abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_21/List_7_21.cs using Guid(c3cfde0706290b24892fc9c68ebd6abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbcc0360731ffe6be047f59cb4cc6677') in 0.008430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/PT_018@idle.FBX
+  artifactKey: Guid(e8c7555ebbc0df1489616f71ab2a854b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/PT_018@idle.FBX using Guid(e8c7555ebbc0df1489616f71ab2a854b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab5a71af1b3aeac0a0a342d39329ab1f') in 0.058022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshtint Free Knight/Materials/Blue.mat
+  artifactKey: Guid(c0c7e3518cd06bd499fe69cdba52c9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Materials/Blue.mat using Guid(c0c7e3518cd06bd499fe69cdba52c9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61dda480236571e32c0d296840f65cda') in 0.025931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Character/Meshtint Free Knight.prefab
+  artifactKey: Guid(5b5b1958cdf88ce49989e326859b9572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Character/Meshtint Free Knight.prefab using Guid(5b5b1958cdf88ce49989e326859b9572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bd6e433b6f5363e9bbbf9c20237a3b6') in 0.029737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/8_5/8_5_CollisionCheck.unity
+  artifactKey: Guid(9f22f844e3051b048b522fa7a908e58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5/8_5_CollisionCheck.unity using Guid(9f22f844e3051b048b522fa7a908e58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16e4e0cf3abe465ff3fc1635ced8477d') in 0.005420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Model/Character
+  artifactKey: Guid(f724c76323f3f2c4285e7d9e19cae9b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model/Character using Guid(f724c76323f3f2c4285e7d9e19cae9b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ba01d980d2918d7e98e4369a002ff02') in 0.006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/8_9/TrollWalk.cs
+  artifactKey: Guid(c967dde39476fa547a40da5d3826f5bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_9/TrollWalk.cs using Guid(c967dde39476fa547a40da5d3826f5bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '305af2e7ab18f933130df373aee357f7') in 0.008275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Meshtint Free Knight/UI/Important!!! Read me.prefab
+  artifactKey: Guid(2eb6d9a882a95a54f97244f20bddea01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/UI/Important!!! Read me.prefab using Guid(2eb6d9a882a95a54f97244f20bddea01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47c210024f384f742ae1b2a20f7c8481') in 0.062618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DogKnight/Animations/Defend.anim
+  artifactKey: Guid(cf357b5409b4ad54a82c45d7684564e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/Defend.anim using Guid(cf357b5409b4ad54a82c45d7684564e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80ed2073c983727afafcebbee80a37b0') in 0.042617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DogKnight/Material/PBR.mat
+  artifactKey: Guid(da05e49adf02c134f88f541992ee78d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Material/PBR.mat using Guid(da05e49adf02c134f88f541992ee78d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abf8e66368f1498b7120bbeca4983370') in 0.242066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DogKnight/Animations/Die.anim
+  artifactKey: Guid(5d190d8211c88a64281f7b90c69f3eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/Die.anim using Guid(5d190d8211c88a64281f7b90c69f3eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8b2fcc4cf9e3852959890d6eeb35d7e') in 0.040012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DogKnight/Material/Polyart.mat
+  artifactKey: Guid(421140039854e8c42938a8cb73d3480c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Material/Polyart.mat using Guid(421140039854e8c42938a8cb73d3480c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b2e88b082f4cca29ad856bfc42d90af') in 0.040110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DogKnight/Texture
+  artifactKey: Guid(8475906f06c098743a1bb0fb3fcbe0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Texture using Guid(8475906f06c098743a1bb0fb3fcbe0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e44f11cf50d920f1d51f83b405437281') in 0.061312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DogKnight/promotion.jpg
+  artifactKey: Guid(f27d7537e17799e47be587331b9ef52b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/promotion.jpg using Guid(f27d7537e17799e47be587331b9ef52b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53e470fb2be4eabe087c7c1875d1db0c') in 0.044904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DogKnight/Mesh/Sword.fbx
+  artifactKey: Guid(9ef625d01f79b4e4eb62fcdf032954ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/Sword.fbx using Guid(9ef625d01f79b4e4eb62fcdf032954ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01e920c7430ff5caa933a8a94be01f21') in 0.088013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DogKnight/Animations/WalkForwardBattle.anim
+  artifactKey: Guid(f0c8c1d913b359a428b42d53947d3e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/WalkForwardBattle.anim using Guid(f0c8c1d913b359a428b42d53947d3e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2429b905dc6077545db8c83051184ba6') in 0.023259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DogKnight/Animations/DieRecover.anim
+  artifactKey: Guid(4a3671dbe6670524b8b6d9ad3664c179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/DieRecover.anim using Guid(4a3671dbe6670524b8b6d9ad3664c179) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49917d1a65a2f9925ebd84c63ab94ba7') in 0.027804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DogKnight/Mesh/SwordPolyart.fbx
+  artifactKey: Guid(b96201848d117da4ca7dc3ade4bd59de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/SwordPolyart.fbx using Guid(b96201848d117da4ca7dc3ade4bd59de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b89342b050f227a2536c027674eef3c4') in 0.043618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DogKnight/Scene/Scene01.unity
+  artifactKey: Guid(f289dc5ef7a55d44b83125c0b2415ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Scene/Scene01.unity using Guid(f289dc5ef7a55d44b83125c0b2415ed4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf831d4cc9728579e287af29d70a35df') in 0.021952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/DogKnight/Mesh/DogPolyart.fbx
+  artifactKey: Guid(a58d63122b09e9144938cd6a1ece4824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/DogPolyart.fbx using Guid(a58d63122b09e9144938cd6a1ece4824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bb1c06832d06781a3920d732809fbbd') in 0.047170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DogKnight/Animations/Idle_Battle.anim
+  artifactKey: Guid(b79ff7bb68348be479d3db6b7fe8a569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/Idle_Battle.anim using Guid(b79ff7bb68348be479d3db6b7fe8a569) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02084f5feae902361a03d710b6489123') in 0.018802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DogKnight/Mesh/Shield.fbx
+  artifactKey: Guid(588cb1a3084bba747b81631d0c071523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/Shield.fbx using Guid(588cb1a3084bba747b81631d0c071523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bfe4483e1858144e1a3ccde34eba202') in 0.049459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DogKnight/Prefab/DogPBR.prefab
+  artifactKey: Guid(214e08cd5e5d74c458e2a81b7ec2c84c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Prefab/DogPBR.prefab using Guid(214e08cd5e5d74c458e2a81b7ec2c84c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74b3408c0cbc433d626891c476704438') in 0.094675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DogKnight/Scene
+  artifactKey: Guid(169044d5b44cadd40949a7ac78a33176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Scene using Guid(169044d5b44cadd40949a7ac78a33176) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27d5b036e141a10cbdde20f7d0d38e77') in 0.041453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DogKnight/Prefab
+  artifactKey: Guid(9739c933b2b55f3488427aed995de914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Prefab using Guid(9739c933b2b55f3488427aed995de914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1571c50bc40d2df3544c0ecfcd176546') in 0.006572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DogKnight/Texture/MS.png
+  artifactKey: Guid(f4da30a223a78034fbc3c563d2a924a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Texture/MS.png using Guid(f4da30a223a78034fbc3c563d2a924a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b5d6a70d82e7b4697faa034bf390556') in 0.022116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DogKnight/Material
+  artifactKey: Guid(9728cb8ec5fa99441b90bfbaeab3521c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Material using Guid(9728cb8ec5fa99441b90bfbaeab3521c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ded51240a7479e609d7f00155a786e35') in 0.003948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DogKnight/Material/Skybox_Mat.mat
+  artifactKey: Guid(5f62bea3b5185c2488588e50d05df87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Material/Skybox_Mat.mat using Guid(5f62bea3b5185c2488588e50d05df87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e5cd92593df8848137291b6016d0376') in 0.029625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DogKnight/Mesh
+  artifactKey: Guid(8dd9b69606bd3bd4f84c826ce6874603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh using Guid(8dd9b69606bd3bd4f84c826ce6874603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f60ec6af528ba680c228bc147595d5e') in 0.007900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/7_26/2_26_Example.unity
+  artifactKey: Guid(68be0e51873a9a04bad78951dd0e10ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_26/2_26_Example.unity using Guid(68be0e51873a9a04bad78951dd0e10ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c29d28c434dc46f0bc3f2898a7f787ed') in 0.008111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DogKnight/Animations
+  artifactKey: Guid(acc95159d37cb8b49be0ca5f0bdc7fbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations using Guid(acc95159d37cb8b49be0ca5f0bdc7fbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8156b6b1f490ca37b48bb2330488eee6') in 0.008379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/7_20/7_20_Component.unity
+  artifactKey: Guid(1bd31a8ce8a2185499fe48851e4af560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_20/7_20_Component.unity using Guid(1bd31a8ce8a2185499fe48851e4af560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f0d72c291ea03fdf2a02a3024481707') in 0.007082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (5).png
+  artifactKey: Guid(6bde150c1d1af75418fbf085c3ca4dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (5).png using Guid(6bde150c1d1af75418fbf085c3ca4dfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '448f1888dbe85827e5bdeb6c0e575eba') in 0.041632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DogKnight/Texture/StandardAlbedo.png
+  artifactKey: Guid(5b981358eaa6be84dbe67e39c78e448b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Texture/StandardAlbedo.png using Guid(5b981358eaa6be84dbe67e39c78e448b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7eb9c17722480a0f41cada5b0fa271b') in 0.048613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Meshtint Free Knight/Textures/Grid.psd
+  artifactKey: Guid(6f38cf081e548024eadabcdb13ca5fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Textures/Grid.psd using Guid(6f38cf081e548024eadabcdb13ca5fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcb17e67b28b72ebc0e6de80c26fd6f8') in 0.017326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/7_27/7_27_Test.unity
+  artifactKey: Guid(b3fbbb3f8a8474248acb1f21ef24d974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_27/7_27_Test.unity using Guid(b3fbbb3f8a8474248acb1f21ef24d974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cbba9260a296ed71d24ad9574fbe721') in 0.006914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DogKnight/Animations/GetHit.anim
+  artifactKey: Guid(1588532e68f51a040bda71c68cfab177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/GetHit.anim using Guid(1588532e68f51a040bda71c68cfab177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c248d162d62da6ce9afca0c74256513d') in 0.050446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/7_27/MoveExample_7_27.cs
+  artifactKey: Guid(9a1f745a38dc7ad4780e519e6a00335b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_27/MoveExample_7_27.cs using Guid(9a1f745a38dc7ad4780e519e6a00335b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb6e6a5fef8cce66e726d7ef1344df5f') in 0.008199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/DogKnight/Prefab/DogPolyart.prefab
+  artifactKey: Guid(45288819fde2143449a96207b14db0bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Prefab/DogPolyart.prefab using Guid(45288819fde2143449a96207b14db0bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b87c964be0f4727940c0fc6a85013c21') in 0.129506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Character/TrollGiant.prefab
+  artifactKey: Guid(fda773fda4ae743498d2a6b9e5da5464) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Character/TrollGiant.prefab using Guid(fda773fda4ae743498d2a6b9e5da5464) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff96975b81d520265e104c37327675fd') in 0.068630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/8_11/KakaoTalk_20220810_134850402.jpg
+  artifactKey: Guid(d20b7ab2b6daa1143991b1049e4673f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_11/KakaoTalk_20220810_134850402.jpg using Guid(d20b7ab2b6daa1143991b1049e4673f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '949d47b7ee7bca484691a704722345b1') in 0.050509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/8_11/Teacher.unity
+  artifactKey: Guid(f46b49ce1973fc846bc32652c1b0a611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_11/Teacher.unity using Guid(f46b49ce1973fc846bc32652c1b0a611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd768d92385c2cfbd3e273f0680b1ebe8') in 0.016121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DogKnight/Scene/Scene01Settings.lighting
+  artifactKey: Guid(cb6014c46b0cf3e4ca01af9f05c4f49b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Scene/Scene01Settings.lighting using Guid(cb6014c46b0cf3e4ca01af9f05c4f49b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afb6111387ed0fe5868db12e46080de4') in 0.088085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/8_11/GameManager.cs
+  artifactKey: Guid(5491360e1c511784887384354a6f9418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_11/GameManager.cs using Guid(5491360e1c511784887384354a6f9418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5060aa248a01ee422e783f7205122a3') in 0.007855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/PT_018@hit.FBX
+  artifactKey: Guid(da0b450cd5afe5a499c0c8d858073098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/PT_018@hit.FBX using Guid(da0b450cd5afe5a499c0c8d858073098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '518662e17b236f0ae4a21af2c855d924') in 0.064750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (3).png
+  artifactKey: Guid(ff50e90dd9c89a64481f89266b102439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (3).png using Guid(ff50e90dd9c89a64481f89266b102439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1253e736e4438ee251dc41e6725017ce') in 0.062942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/8_4/GameObjectManager_8_2.cs
+  artifactKey: Guid(b1975d2b525499d42a0df938c8517642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_4/GameObjectManager_8_2.cs using Guid(b1975d2b525499d42a0df938c8517642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58bc2254d60849e8b12f73aa1c818fd7') in 0.007956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/8_4/Meshinfo_8_4.cs
+  artifactKey: Guid(ebb56047071717f4092c73988a2c236f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_4/Meshinfo_8_4.cs using Guid(ebb56047071717f4092c73988a2c236f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85ff084dceea8cd1a2b8fc01c7526580') in 0.055149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DogKnight/Mesh/Stage.fbx
+  artifactKey: Guid(83ccc45f4c0939440a46957a74a54d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/Stage.fbx using Guid(83ccc45f4c0939440a46957a74a54d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b1ddde2b83ceab35eb1b1e0f22c7e50') in 0.040045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Demo/TrollExample.controller
+  artifactKey: Guid(d6704b9196f3ffc4eb4daed28eac2995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Demo/TrollExample.controller using Guid(d6704b9196f3ffc4eb4daed28eac2995) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0991d8fd12a590ad4152391de12e346') in 0.063861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Prefab
+  artifactKey: Guid(e7dd58aab8170c0489bac2d463238640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Prefab using Guid(e7dd58aab8170c0489bac2d463238640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd239874bb6ee6263f39efd651e9ab10') in 0.007210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/7_29/Test_7_29.cs
+  artifactKey: Guid(0236e2345643ab94183d0116f8eb4d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29/Test_7_29.cs using Guid(0236e2345643ab94183d0116f8eb4d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2ba40097e482b4389a991930a1610a3') in 0.007869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (2).png
+  artifactKey: Guid(1f8399b660a023b45a952a0d318c04a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (2).png using Guid(1f8399b660a023b45a952a0d318c04a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22036e2957b1669685c49170dfe24bfd') in 0.044608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Weapons/Shield.prefab
+  artifactKey: Guid(b1c7fb897cfcd30418c175a4d19c6b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Weapons/Shield.prefab using Guid(b1c7fb897cfcd30418c175a4d19c6b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed189380befc1db123bbaee7135b32e8') in 0.019247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (12).png
+  artifactKey: Guid(b2b5c49bdeda6ec4693bb000565ebcad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (12).png using Guid(b2b5c49bdeda6ec4693bb000565ebcad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1e94fcc9f2db093eed43515fd6943a0') in 0.061590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DogKnight/Mesh/ShieldPolyart.fbx
+  artifactKey: Guid(b20cb9cb9197fb64a830cea6c0550d0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/ShieldPolyart.fbx using Guid(b20cb9cb9197fb64a830cea6c0550d0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a847f44621d33a75af866fb925262fb') in 0.022168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/8_5/8_5_Practice.unity
+  artifactKey: Guid(3d389c22a6bb9e74bbc02b41e89b802b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5/8_5_Practice.unity using Guid(3d389c22a6bb9e74bbc02b41e89b802b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39231fcbb1ad692e5730ef8bbd5c5518') in 0.007794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/8_5/Practice_8_5.cs
+  artifactKey: Guid(c18e0d25ae0f00a4dbb1e1065ccd80c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5/Practice_8_5.cs using Guid(c18e0d25ae0f00a4dbb1e1065ccd80c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53a600f83660738db4439726b6bf1a68') in 0.006084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/readMe.txt
+  artifactKey: Guid(54d04294417f3db428ae8d4bc89cd56b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/readMe.txt using Guid(54d04294417f3db428ae8d4bc89cd56b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b02a8d1242c02674046cf8f568d82cd6') in 0.033054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DogKnight
+  artifactKey: Guid(7677215159259ff4992523889294ee04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight using Guid(7677215159259ff4992523889294ee04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41fcc37f0b3c53d39634f9fc233e47d3') in 0.003825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DogKnight/Animations/Attack01.anim
+  artifactKey: Guid(6019f1b4a095b0b4396f5561a51fee89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/Attack01.anim using Guid(6019f1b4a095b0b4396f5561a51fee89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07979b3033cb9b67af65e9457c4a1f79') in 0.026086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DogKnight/Animator/DogControl.controller
+  artifactKey: Guid(b60dc9aa529b314489f628aa3b57c470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animator/DogControl.controller using Guid(b60dc9aa529b314489f628aa3b57c470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba0d90e7fe8ff438adf7ddaa78a4548e') in 0.084224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/7_28/InputExample_7_28.cs
+  artifactKey: Guid(5f57303e8c9ffc248ae091e7f57955e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_28/InputExample_7_28.cs using Guid(5f57303e8c9ffc248ae091e7f57955e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21b14a514fb8e94004de647b556541d9') in 0.005682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Model
+  artifactKey: Guid(b01c9cccaafd05e45a3def58e485793f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model using Guid(b01c9cccaafd05e45a3def58e485793f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b117a3318917323038dd6d1666deab0') in 0.005622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/8_11
+  artifactKey: Guid(07a43c58d08753240a1a21c65e725e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_11 using Guid(07a43c58d08753240a1a21c65e725e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dfc74da29a8cbca7950abef38390256') in 0.004920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Mesh/Materials
+  artifactKey: Guid(66d7459b35c965d4bb38424fb2a2d8ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Mesh/Materials using Guid(66d7459b35c965d4bb38424fb2a2d8ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '376537cf9a693684727c0e1e088f10ff') in 0.003938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/7_26/Example_7_26.cs
+  artifactKey: Guid(99f4fadc451b0df4f8d087892f617603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_26/Example_7_26.cs using Guid(99f4fadc451b0df4f8d087892f617603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd1398a37cdbebd9efc04f8b66609988') in 0.007729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DogKnight/Animations/Attack02.anim
+  artifactKey: Guid(eccbae3cfc77ad245ade46e143aa3200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/Attack02.anim using Guid(eccbae3cfc77ad245ade46e143aa3200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcf0a1144aecb5bd4f4b0dc92d25180f') in 0.026514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Meshtint Free Knight/FBX
+  artifactKey: Guid(618a8ebb41a30664d9e572399c24f307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/FBX using Guid(618a8ebb41a30664d9e572399c24f307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43d9b067f65b259794451caf9561ec34') in 0.007667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/8_11/Character.cs
+  artifactKey: Guid(d53d3ac0df057de4490999910563b3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_11/Character.cs using Guid(d53d3ac0df057de4490999910563b3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '961fc71bb26f5c10ab99dbc30bad55fe') in 0.005942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/8_2
+  artifactKey: Guid(397b9a5cef423ca4aba5df15ca3916ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_2 using Guid(397b9a5cef423ca4aba5df15ca3916ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d3a8047007cf8d2cacebfd580d0b86e') in 0.005162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Meshtint Free Knight/FBX/Meshtint Free Knight@Battle Idle.FBX
+  artifactKey: Guid(db4eaab5d375e8844851ce3cf2165adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/FBX/Meshtint Free Knight@Battle Idle.FBX using Guid(db4eaab5d375e8844851ce3cf2165adc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72d749b42e2195967e1607a05b507a64') in 0.035731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Weapons/Sword.prefab
+  artifactKey: Guid(1da821e6da998fa42b31c87c60fa12c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Weapons/Sword.prefab using Guid(1da821e6da998fa42b31c87c60fa12c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ac169b14855328185387c065155cdf0') in 0.031941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Meshtint Free Knight/Post Processing Profile
+  artifactKey: Guid(25f0e242aa4c88a4a88d9b178fc603e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Post Processing Profile using Guid(25f0e242aa4c88a4a88d9b178fc603e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36c888f0b8eb1257c6c35147b3d99a3d') in 0.005509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials
+  artifactKey: Guid(4e97e120620873d44a52b11f61c8353a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials using Guid(4e97e120620873d44a52b11f61c8353a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66154d9604a75d7c8946a698115df4e5') in 0.008069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Character
+  artifactKey: Guid(6bab8ff30693b624b9e7957738597bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Character using Guid(6bab8ff30693b624b9e7957738597bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '768ff6a32596b57490b8304b5351a272') in 0.007175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Weapons
+  artifactKey: Guid(5cf9ce855b06e3d47afceba04c6a3cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Weapons using Guid(5cf9ce855b06e3d47afceba04c6a3cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcc689f220e28dd57e29bb7265b1b8f4') in 0.007270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DogKnight/Texture/Normal.png
+  artifactKey: Guid(fe860d9813d9fba43a6db2f1dc9d2044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Texture/Normal.png using Guid(fe860d9813d9fba43a6db2f1dc9d2044) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '457f21d8c910beb2acf1cb0235eb9a3f') in 0.024158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/8_9/8_9_AnimationExample_2.unity
+  artifactKey: Guid(c36316069e2fcca48b7229fa2ed6afcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_9/8_9_AnimationExample_2.unity using Guid(c36316069e2fcca48b7229fa2ed6afcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2b1589dafcdc34e83378853330e06be') in 0.004648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/8_1
+  artifactKey: Guid(7cf0449ddbad11646847282bbc7d4639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_1 using Guid(7cf0449ddbad11646847282bbc7d4639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6dbb8cf65f950b36bbe4cf26733bed5') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/DogKnight/Texture/Albedo.png
+  artifactKey: Guid(3c94236cfdd0fcc4b8fd91e7d12dabec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Texture/Albedo.png using Guid(3c94236cfdd0fcc4b8fd91e7d12dabec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fab3b952fca0311485c5a15ad89b4075') in 0.025351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Model/Character/Material/8_3_character.mat
+  artifactKey: Guid(ef5dd1e02c4b2034bafb1abf74892add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model/Character/Material/8_3_character.mat using Guid(ef5dd1e02c4b2034bafb1abf74892add) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '357e5f752a2fbdb17ab7922b686967fd') in 0.033742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Mesh
+  artifactKey: Guid(a20f9bc7ccfe94a4c87fc2ae50bc0752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Mesh using Guid(a20f9bc7ccfe94a4c87fc2ae50bc0752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c18ff6d052c7a8ee0843e0975614c91') in 0.004406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/8_5/8_5_ResourceLoadExample.unity
+  artifactKey: Guid(9f961847dc0e88c4f9e142edb612a26e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5/8_5_ResourceLoadExample.unity using Guid(9f961847dc0e88c4f9e142edb612a26e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a57b737730b731750d801246ca6a56eb') in 0.061969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Meshtint Free Knight/UI
+  artifactKey: Guid(a83cdd064b39dad488b269f234bee7d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/UI using Guid(a83cdd064b39dad488b269f234bee7d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48a956f5d0af81f94e6d97496e700972') in 0.006214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/8_1/8_1_MousePick.unity
+  artifactKey: Guid(fe5198bdeaf92404a99344d983674b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_1/8_1_MousePick.unity using Guid(fe5198bdeaf92404a99344d983674b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dd86c18c1f15529dda3d3a65f285e90') in 0.009669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/7_28/DataType_7_28.cs
+  artifactKey: Guid(86ac116a7ec300d45bca91ddbcc67622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_28/DataType_7_28.cs using Guid(86ac116a7ec300d45bca91ddbcc67622) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5f08c207808b1e968ddc4861bd4e19c') in 0.004566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Meshtint Free Knight/Prefabs
+  artifactKey: Guid(dd7ad1f08d7a33f41abc3b1b43909c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Prefabs using Guid(dd7ad1f08d7a33f41abc3b1b43909c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3abdbe9eced75a07c9ea07468a79950a') in 0.009476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/die.anim
+  artifactKey: Guid(42aa40920b55c4a4daf16513b64c4dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/die.anim using Guid(42aa40920b55c4a4daf16513b64c4dfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c92b3ba7d26e05f5c9f21d294043601') in 0.048253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Prefab/TrollGiant.prefab
+  artifactKey: Guid(67c5718c064ed5a46900316c64c5adf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Prefab/TrollGiant.prefab using Guid(67c5718c064ed5a46900316c64c5adf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2eea0101420d9f5186d5638d4ad61d4') in 0.069853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DogKnight/Mesh/DogPBR.fbx
+  artifactKey: Guid(d9a1483b77bf10e4e851678ab6c2e54e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Mesh/DogPBR.fbx using Guid(d9a1483b77bf10e4e851678ab6c2e54e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6f6c99382be7465785da2cf54f43112') in 0.032844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/7_26/EventMethod_7_26.cs
+  artifactKey: Guid(5a8e797b4b533db4cbd7984d21cd256a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_26/EventMethod_7_26.cs using Guid(5a8e797b4b533db4cbd7984d21cd256a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '604d77bdd8f96607e31a451662eb80fb') in 0.007446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (10).png
+  artifactKey: Guid(f27857526c278614b864220e5c7d6090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (10).png using Guid(f27857526c278614b864220e5c7d6090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c74382e5b7f8e973845366f9d12e5c7') in 0.028270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Meshtint Free Knight
+  artifactKey: Guid(58b0cb7fd886a8d4aa11cf3b890f6a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight using Guid(58b0cb7fd886a8d4aa11cf3b890f6a39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9ce55bf085074f738e4d493050282d0') in 0.005559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/8_10
+  artifactKey: Guid(40ba9a07785aaea409d74596bcaab1af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_10 using Guid(40ba9a07785aaea409d74596bcaab1af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b6b05460c6e8af583ef0da84234658f') in 0.006157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/7_28
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_28 using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaaa246957ec91b5cfb4e22de28a4080') in 0.004999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (8).png
+  artifactKey: Guid(3640ca5069049954e9fde48aafbbebc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (8).png using Guid(3640ca5069049954e9fde48aafbbebc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19c791be7e98dba18f53aa2d100b27a7') in 0.025687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/8_5/CollisionCheck_8_5.cs
+  artifactKey: Guid(323bc6558c278994cb3ac1f83a971f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5/CollisionCheck_8_5.cs using Guid(323bc6558c278994cb3ac1f83a971f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44a2721ab67bfb49cab035de473b73c5') in 0.006518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/7_20
+  artifactKey: Guid(9ef3ae223f858fc4d98fb618015be4c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_20 using Guid(9ef3ae223f858fc4d98fb618015be4c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb5e871a4f80eef4835adca30e5d460f') in 0.004139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Model/Character/Meshtint Free Knight.prefab
+  artifactKey: Guid(8763d0963defe87468e1b9221a7f574e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Model/Character/Meshtint Free Knight.prefab using Guid(8763d0963defe87468e1b9221a7f574e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '784d90fa0f1288ea37d12c168891a5ed') in 0.033950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Meshtint Free Knight/Textures
+  artifactKey: Guid(822b2da83b7586c41a96ebabc1480089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Textures using Guid(822b2da83b7586c41a96ebabc1480089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c71d719077b403a6e7d117c66c0a520') in 0.005566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/New Prefab.prefab
+  artifactKey: Guid(3d105ba6961f9ba459389d78534720f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Prefab.prefab using Guid(3d105ba6961f9ba459389d78534720f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbaeee9a9ebe778f042662ffd542a31e') in 0.013568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (9).png
+  artifactKey: Guid(04f587ba9865fb341835e92d5b36d84f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (9).png using Guid(04f587ba9865fb341835e92d5b36d84f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bb664faf60c377b16f7e1b2188f49d1') in 0.027013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Mesh/TrollGiant.FBX
+  artifactKey: Guid(26a9250b5db505a4494770a3821c374b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Mesh/TrollGiant.FBX using Guid(26a9250b5db505a4494770a3821c374b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab85cab6a061355e73a39d4db67f898a') in 0.031086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/PT_018@run.FBX
+  artifactKey: Guid(732eb38a9e8079a48960759d3f341390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/PT_018@run.FBX using Guid(732eb38a9e8079a48960759d3f341390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37943611e6aac3540a1be8e29ade305b') in 0.050574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/8_11/CustomCamera.cs
+  artifactKey: Guid(dbbc1237f17a99c4b81a3c1d0d78a45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_11/CustomCamera.cs using Guid(dbbc1237f17a99c4b81a3c1d0d78a45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e8ceb84f228cb205a0fc3cb73eba011') in 0.005466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (4).png
+  artifactKey: Guid(7e6ed42c4eedc6e448e3bd11e530897a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG/Meshtint Free Knight Tutorial (4).png using Guid(7e6ed42c4eedc6e448e3bd11e530897a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e9c4f1e68d292c35d165736f5a46ea0') in 0.019266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/MonsterGroup1/TrollGiant
+  artifactKey: Guid(43a1d801195ca2a468d712bb24170f4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant using Guid(43a1d801195ca2a468d712bb24170f4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55d7818f0bd10dc3f7c724382964447f') in 0.005842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/8_10/AtentsTest_8_10.cs
+  artifactKey: Guid(9a67d90043bd6ce44bfea12842a729bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_10/AtentsTest_8_10.cs using Guid(9a67d90043bd6ce44bfea12842a729bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25c6ac59201d959accff5a73201ac0d6') in 0.009369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DogKnight/Material/Stage.mat
+  artifactKey: Guid(4cafe8a18bb8d2a4794bfd7693442026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Material/Stage.mat using Guid(4cafe8a18bb8d2a4794bfd7693442026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '104e4764c917f3ad348f176daddc1f2b') in 0.085502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Mesh/Materials/PT_018.mat
+  artifactKey: Guid(0cf72db4412a0474db2d83375bba3a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Mesh/Materials/PT_018.mat using Guid(0cf72db4412a0474db2d83375bba3a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5181a88200b91b8964dddcd8401988f') in 0.051369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Meshtint Free Knight/Tutorials/PNG
+  artifactKey: Guid(b63384b497e3ca84c9710a9d95dcf618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Tutorials/PNG using Guid(b63384b497e3ca84c9710a9d95dcf618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c39b49c6416ad69f52d5f08621378221') in 0.006257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/7_29/SceneExample_7_29.cs
+  artifactKey: Guid(30a37548c2cee1447a897d7886b36404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29/SceneExample_7_29.cs using Guid(30a37548c2cee1447a897d7886b36404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74914744824d7c5c387a41da328649e7') in 0.007404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/7_20/Distanse_7_20.cs
+  artifactKey: Guid(d0228526af9e9d84fb8c2b03ab7f1d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_20/Distanse_7_20.cs using Guid(d0228526af9e9d84fb8c2b03ab7f1d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71cef9dac48a8a66e155a536a2875341') in 0.005481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/7_28/7_28_InputExample.unity
+  artifactKey: Guid(a838d0f85f0fca949beebb41d8dfe4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_28/7_28_InputExample.unity using Guid(a838d0f85f0fca949beebb41d8dfe4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3941071188d53c52d46dfadb73d26e81') in 0.005420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/8_1/8_1_InputMouse.unity
+  artifactKey: Guid(63eccc14d11d06940941bca2d2b8dc6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_1/8_1_InputMouse.unity using Guid(63eccc14d11d06940941bca2d2b8dc6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e655cf4157fb56a71f4bbfc4681bff7') in 0.005254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/8_3/Character_8_3.cs
+  artifactKey: Guid(aa131399583d50a4d9438824a763533e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_3/Character_8_3.cs using Guid(aa131399583d50a4d9438824a763533e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45c2e2054909493a904ffaa4f37dd714') in 0.009064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/7_26/7_26_EventMethod.unity
+  artifactKey: Guid(dc13dec711a08a9419b2c83d07c05c8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_26/7_26_EventMethod.unity using Guid(dc13dec711a08a9419b2c83d07c05c8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ad2ebfbdeceabe81a08cca873ff569b') in 0.040958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Meshtint Free Knight/Controllers
+  artifactKey: Guid(e4487f2d525a4334f9dcdfa6f73f6be7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Controllers using Guid(e4487f2d525a4334f9dcdfa6f73f6be7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4195ca3bfa17ea9f730cab4bc763f8f3') in 0.005736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Meshtint Free Knight/Scenes
+  artifactKey: Guid(c565cb3d2c64ce541be95aa624c8d867) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/Scenes using Guid(c565cb3d2c64ce541be95aa624c8d867) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3261f278c1d0a5c3460046c3813abe45') in 0.005646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/idle.anim
+  artifactKey: Guid(4332bf4c772027c4b85e98d779c36edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/idle.anim using Guid(4332bf4c772027c4b85e98d779c36edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ecd4e9427ffd0ec8b59eaac505aeeb6') in 0.021876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DogKnight/Animations/RunForwardBattle.anim
+  artifactKey: Guid(9f0e03164414016409d28995a128ba98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/RunForwardBattle.anim using Guid(9f0e03164414016409d28995a128ba98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb3b0c62856f7ad9f08e55fc216cfa88') in 0.024532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/7_29/7_29_SceneExample.unity
+  artifactKey: Guid(a55af580250933a4988872307a6c6f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/7_29/7_29_SceneExample.unity using Guid(a55af580250933a4988872307a6c6f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d48762d9b6259d3336e91f9021f785e') in 0.004351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/8_4/ComponentTest_8_2.cs
+  artifactKey: Guid(7ce5216b4b999444ca84dc673f8ad253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_4/ComponentTest_8_2.cs using Guid(7ce5216b4b999444ca84dc673f8ad253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b10724ce89f11aa9c0988964b0b5ac35') in 0.004309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002478 seconds.
+  path: Assets/8_5
+  artifactKey: Guid(e143eafdb9026534fa14b069264afd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/8_5 using Guid(e143eafdb9026534fa14b069264afd0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb5e200483d59cbfe43d64cc399fbe17') in 0.008158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(38392c3a3fb7a8645af4f3b57088cfb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources using Guid(38392c3a3fb7a8645af4f3b57088cfb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99790f72202fdf52fbff156d7dd8e15a') in 0.005645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DogKnight/Texture/AO.png
+  artifactKey: Guid(ab3e8c0e82b3db8429abc130ac9e62d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Texture/AO.png using Guid(ab3e8c0e82b3db8429abc130ac9e62d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eaa50b4a600a2258b37ae003e0194224') in 0.024479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MonsterGroup1
+  artifactKey: Guid(b51572005ee1e9a46b378c3288ac6429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1 using Guid(b51572005ee1e9a46b378c3288ac6429) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e64ed3bcd046adafb03f2f6f32a6e1c0') in 0.007069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DogKnight/Animations/Dizzy.anim
+  artifactKey: Guid(30d4fe7af77240a44b9354aaed8e5beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DogKnight/Animations/Dizzy.anim using Guid(30d4fe7af77240a44b9354aaed8e5beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a107018c26def0d7b68b94685bd1967') in 0.024224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Meshtint Free Knight/FBX/Sword.FBX
+  artifactKey: Guid(17e462df654aa664683c1e9f5eed62bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Meshtint Free Knight/FBX/Sword.FBX using Guid(17e462df654aa664683c1e9f5eed62bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3d0065ee3629c54c0d67a36e9046a60') in 0.018784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MonsterGroup1/TrollGiant/Motion/PT_018@atk01.FBX
+  artifactKey: Guid(ea3c7e126f7573f44ab41fb0b3366fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MonsterGroup1/TrollGiant/Motion/PT_018@atk01.FBX using Guid(ea3c7e126f7573f44ab41fb0b3366fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf5c98d15b2bcf5c323048b5bcc4450d') in 0.052334 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (76.4 KB). Loaded Objects now: 3864.
+Memory consumption went from 51.1 MB to 51.0 MB.
+Total: 3.446000 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.254900 ms MarkObjects: 2.779800 ms  DeleteObjects: 0.091800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007796 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4126ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (3750ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (744ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (2309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (417ms)
+				ProcessInitializeOnLoadAttributes (1719ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (63ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3867.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 3.324000 ms (FindLiveObjects: 0.478500 ms CreateObjectMapping: 0.334500 ms MarkObjects: 2.382900 ms  DeleteObjects: 0.127100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.1 KB). Loaded Objects now: 3870.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 2.653900 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.207500 ms  DeleteObjects: 0.077700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1067ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (766ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3873.
+Memory consumption went from 118.4 MB to 118.3 MB.
+Total: 3.059300 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.143500 ms MarkObjects: 2.580900 ms  DeleteObjects: 0.086400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006411 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1864ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1535ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (475ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3876.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 4.213900 ms (FindLiveObjects: 0.632800 ms CreateObjectMapping: 0.758600 ms MarkObjects: 2.711200 ms  DeleteObjects: 0.108600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3879.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 2.929100 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.129600 ms MarkObjects: 2.476600 ms  DeleteObjects: 0.084600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007211 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.898 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1900ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1583ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (722ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (419ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3882.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 3.995700 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.184100 ms MarkObjects: 3.387800 ms  DeleteObjects: 0.150600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006420 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3885.
+Memory consumption went from 118.5 MB to 118.4 MB.
+Total: 2.794000 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.324000 ms  DeleteObjects: 0.077900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.922 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1925ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1601ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3888.
+Memory consumption went from 118.5 MB to 118.4 MB.
+Total: 6.467400 ms (FindLiveObjects: 0.817000 ms CreateObjectMapping: 0.327700 ms MarkObjects: 5.217200 ms  DeleteObjects: 0.103700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3891.
+Memory consumption went from 118.5 MB to 118.4 MB.
+Total: 3.129200 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.148300 ms MarkObjects: 2.641300 ms  DeleteObjects: 0.087300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006820 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1976ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1656ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (546ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (703ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3894.
+Memory consumption went from 118.6 MB to 118.5 MB.
+Total: 6.412300 ms (FindLiveObjects: 1.259900 ms CreateObjectMapping: 1.584700 ms MarkObjects: 3.456200 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1093ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3897.
+Memory consumption went from 118.6 MB to 118.5 MB.
+Total: 2.655700 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.129900 ms MarkObjects: 2.194600 ms  DeleteObjects: 0.078100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006110 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1845ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1540ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (467ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (716ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3900.
+Memory consumption went from 118.6 MB to 118.5 MB.
+Total: 4.344200 ms (FindLiveObjects: 0.355400 ms CreateObjectMapping: 0.243200 ms MarkObjects: 3.314000 ms  DeleteObjects: 0.428900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\FClass\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
