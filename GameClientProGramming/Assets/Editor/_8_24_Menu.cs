@@ -15,6 +15,7 @@ public class _8_24_Menu
         Debug.Log("SaveMonster");
     }
     
+    
     //파일에 정보 입력하는 방법
     [MenuItem("Export/SceneData")]
     static void ExportSceneData()

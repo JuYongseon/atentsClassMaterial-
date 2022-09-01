@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/8_26/_8_26_NavMesh.unity
+- path: Assets/9_1/_9_1_File.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
