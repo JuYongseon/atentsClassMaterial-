@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/9_1/_9_1_File.unity
+- path: Assets/9_5/_9_5_RanderTexture.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

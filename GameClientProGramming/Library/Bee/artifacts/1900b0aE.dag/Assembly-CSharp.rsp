@@ -363,13 +363,12 @@
 "Assets/8_18/_8_18_Monster.cs"
 "Assets/8_18/_8_18_ResourceManager.cs"
 "Assets/8_22/_8_22_Delegate.cs"
-"Assets/8_23/_8_23_FileIO.cs"
 "Assets/8_25/_8_25_Dictionary.cs"
 "Assets/8_26/_8_26_NavMeshCharacter.cs"
-"Assets/8_29/_8_29_DirectoryAndFile.cs"
-"Assets/8_29/_8_29_DorectoryAndFile.cs"
-"Assets/9_1/_9_1_File.cs"
-"Assets/Scenes/NewBehaviourScript.cs"
+"Assets/9_2/_9_2_Material.cs"
+"Assets/9_2/_9_2_Monster.cs"
+"Assets/9_2/_9_2_ObjectPooling.cs"
+"Assets/9_5/_9_5_UV.cs"
 -langversion:9.0
 
 /deterministic
