@@ -369,6 +369,14 @@
 "Assets/9_2/_9_2_Monster.cs"
 "Assets/9_2/_9_2_ObjectPooling.cs"
 "Assets/9_5/_9_5_UV.cs"
+"Assets/9_7/_9_7_Lerp.cs"
+"Assets/9_7/_9_7_Recursive.cs"
+"Assets/9_7/_9_7_ShaderFind.cs"
+"Assets/9_7/_9_7_ZoomInOut.cs"
+"Assets/9_8/_9_8_Lamda.cs"
+"Assets/9_8/_9_8_LamdaTeacher.cs"
+"Assets/SpaceSkies Free/Demo/Scripts/LookCamera.cs"
+"Assets/SpaceSkies Free/Demo/Scripts/SkyboxChanger.cs"
 -langversion:9.0
 
 /deterministic
