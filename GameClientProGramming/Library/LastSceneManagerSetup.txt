@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/9_13/_9_13_ShaderBasic.unity
+- path: Assets/9_19/_9_19_MultiTexture.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
