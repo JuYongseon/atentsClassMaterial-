@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/9_19/_9_19_MultiTexture.unity
+- path: Assets/9_29(UI,UX)/_9_29_Stick_UI.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

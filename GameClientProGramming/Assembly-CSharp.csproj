@@ -61,6 +61,7 @@
     <Compile Include="Assets\8_16\_8_16_Player.cs" />
     <Compile Include="Assets\9_7\_9_7_Lerp.cs" />
     <Compile Include="Assets\8_12\_8_12_FieldManager.cs" />
+    <Compile Include="Assets\9_21\_9_21_EffectPosition.cs" />
     <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
     <Compile Include="Assets\9_14\_9_14ShaderFind.cs" />
     <Compile Include="Assets\9_7\_9_7_ShaderFind.cs" />
@@ -77,15 +78,19 @@
     <Compile Include="Assets\9_8\_9_8_Lamda.cs" />
     <Compile Include="Assets\9_7\_9_7_Recursive.cs" />
     <Compile Include="Assets\8_18\_8_18_GameManager.cs" />
+    <Compile Include="Assets\9_29(UI,UX)\_9_29_Stick_UI.cs" />
     <Compile Include="Assets\9_2\_9_2_ObjectPooling.cs" />
     <Compile Include="Assets\8_12\_8_12_ResourcesManager.cs" />
     <Compile Include="Assets\8_16\_8_16_GameManager.cs" />
+    <Compile Include="Assets\9_20\_9_20_Practice_GPUInstancing.cs" />
     <Compile Include="Assets\8_12\_8_12_SingleTonTest.cs" />
     <Compile Include="Assets\8_18\_8_18_Monster.cs" />
     <Compile Include="Assets\8_12\_8_12_Player.cs" />
     <Compile Include="Assets\9_15\BuildingAlpha.cs" />
     <Compile Include="Assets\9_2\_9_2_Monster.cs" />
+    <Compile Include="Assets\9_29(UI,UX)\_9_29_PlayerWithStick.cs" />
     <Compile Include="Assets\9_5\_9_5_UV.cs" />
+    <Compile Include="Assets\9_20\_9_20_GPUInstancingShader.cs" />
     <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +98,7 @@
     <None Include="Assets\Shader\_9_15_BumpMap.shader" />
     <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
     <None Include="Assets\Shader\_9_13_SurfaceBasic.shader" />
+    <None Include="Assets\Shader\_9_20_GPUInstancingShader.shader" />
     <None Include="Assets\MonsterGroup1\TrollGiant\readMe.txt" />
     <None Include="Assets\test1.txt" />
     <None Include="Assets\Shader\_9_14_SurfaceBasic.shader" />

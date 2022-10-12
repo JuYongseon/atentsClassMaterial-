@@ -3,7 +3,7 @@ Shader "Custom/_9_13_SurfaceBasic"
     Properties//외부에 공개되는 변수
     {
         _Color("Color", Color) = (1,1,1,1)
-        _Alpha("Alpha", Range(0,1)) = 1
+        _Alpha("Alpha", Range(0,2)) = 1
         _MainTex("Albedo (RGB)", 2D) = "white" {}
     }
     SubShader//실질적으로 프로그램이 돌아가는 위치
@@ -32,7 +32,8 @@ Shader "Custom/_9_13_SurfaceBasic"
             //o.Albedo = float4(0,0,0,0) //연산 결과를 o의 멤버에 채워 준다.
             //o.Albedo = _Color;
             
-            o.Emission = fixed3(0,0,1);
+            o.Emission = fixed3(0.3,0.2,0.7) + fixed3(0.4, 0.9, 0.4);
+
             o.Alpha = _Alpha;
         }
         ENDCG//끝을 알리는 프로그램
